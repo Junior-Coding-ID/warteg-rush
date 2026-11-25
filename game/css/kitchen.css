@@ -1,0 +1,7 @@
+/* Warteg Rush — kitchen.css: page chrome around the canvas only. */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #2b1d12; height: 100%; }
+body { display: flex; align-items: center; justify-content: center; font-family: Verdana, Geneva, sans-serif; }
+#wrap { width: 1280px; max-width: 100vw; }
+#game { display: block; width: 100%; height: auto; background: #f3e2c2; border: 4px solid #7a4a21; border-radius: 10px; box-shadow: 0 10px 40px rgba(0,0,0,.55); }
+#help { color: #f7d9a0; text-align: center; font-size: 13px; padding: 8px 4px; letter-spacing: .3px; }
